@@ -81,7 +81,7 @@ public class UserServiceImpl implements UserService, UserConstant {
         user.setUserName(userName);
         user.setUpdateTime(new Date());
         user.setCreateTime(new Date());
-        user.setUserAvatar("https://huacheng.gz-cmc.com/upload/news/image/2023/05/26/3e67c105f5ac4a38b45a2c7f0a40688f.jpeg");
+        user.setUserAvatar("https://xjzai1.blob.core.windows.net/pictureshare/public/6948161fbbb958089bc881c4/2025-12-23_mMJXPQyhvZiGKVZJ.jpg");
         user.setIsDelete(0);
         User savedUser = userMapper.save(user);
         if (savedUser == null || savedUser.getId() == null) {
